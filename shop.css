@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+   background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+ 
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  z-index: 1000;
+  background: linear-gradient(135deg, #6a923d, #004202); 
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+header h1 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  
+  border: 2px solid #223923; 
+  
+  backdrop-filter: blur(200px);
+  
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff0f0;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#grocery-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#add-btn {
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#add-btn:hover {
+  background: #45a049;
+}
+
+#grocery-list {
+  list-style: none;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.grocery-item:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.share-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#share-btn {
+  padding: 10px 15px;
+  background: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#share-btn:hover {
+  background: #2250b4;
+}
