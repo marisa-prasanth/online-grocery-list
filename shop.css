@@ -157,3 +157,11 @@ h1 {
 #share-btn:hover {
   background: #2250b4;
 }
+
+footer{
+height:20px;
+    width:100px;
+    background:green;
+    color:white;
+}
+
