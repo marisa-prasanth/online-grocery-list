@@ -158,14 +158,22 @@ h1 {
   background: #2250b4;
 }
 
-footer{
-height:20px;
-    width:100px;
-    background-color: green;
-    color:white;
-    position:bottom;
-    
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #004202;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
 }
+
 
 
 
